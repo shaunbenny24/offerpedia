@@ -1,0 +1,57 @@
+/* index login page starts here  */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: black;
+    font-family: "poppinsregular";
+color: #fff;
+}
+.view{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #4b8f78;
+    box-shadow: 4px 2px 19px 3px #1d1f1e;
+    padding: 10px;
+    width: 262px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.view a{
+    color: white;
+    font-size: medium;
+}
+.logobox img{
+    width: 100%;
+    
+}
+.logobox{
+    width: 282px;
+margin: 145px auto;
+}
+.box p{
+    font-size: small;
+}
+.box{
+    background: #293330;
+    width: 282px;
+    height: 190px;
+    border-radius: 15px;
+    padding: 20px  15px;
+  
+}
+.phone{ 
+    margin-top: 20px;
+    background: rgb(65, 61, 61);
+    color: #4b8f78;
+    border: none;
+    width: 100%;
+    height: 35px;
+    border-radius: 15px;
+}
+ /* index ends here  */
