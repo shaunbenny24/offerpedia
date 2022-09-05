@@ -5,9 +5,15 @@
     
 }
 body{
-    background-color: black;
+    background-color: black; 
     font-family: "poppinsregular";
 color: #fff;
+}
+.boxtop{font-family: 'Noto Sans', sans-serif;}
+.boxtop h2{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Noto Sans', sans-serif;
 }
 .view{
     display: flex;
@@ -16,38 +22,54 @@ color: #fff;
     background-color: transparent;
     color: #4b8f78;
     box-shadow: 4px 2px 19px 3px #1d1f1e;
-    padding: 10px;
-    width: 262px;
+    padding: 10px 20px;
+    width:84%;
     border-radius: 20px;
     margin-top: 20px;
 
 }
-.view a{
-    color: white;
+.box a{
+    color: #4b8f78;
     font-size: medium;
+    text-decoration: none;
 }
 .logobox img{
     width: 100%;
     
 }
+.boxtop{
+    padding-bottom: 20px;
+}
 .logobox{
+
+margin-top:  160px;
+ display: grid;
+}
+.logoii{
     width: 282px;
-margin: 145px auto;
+    padding-bottom: 40px;
 }
 .box p{
     font-size: small;
+    font-family: 'Noto Sans', sans-serif;
+}
+.center{
+    justify-self: center;
 }
 .box{
     background: #293330;
-    width: 282px;
-    height: 190px;
-    border-radius: 15px;
-    padding: 20px  15px;
+    width: 263px;
+    height: 160px;
+    border-radius: 8px;
+    padding: 20px  20px;
+    justify-self: center;
+    align-self: center;
+
   
 }
 .phone{ 
     margin-top: 20px;
-    background: rgb(65, 61, 61);
+    background:#1d1f1e ;
     color: #4b8f78;
     border: none;
     width: 100%;
@@ -55,3 +77,72 @@ margin: 145px auto;
     border-radius: 15px;
 }
  /* index ends here  */
+
+ /* country flag  */
+ .iti__country.iti__highlight {
+    background-color:#1d1f1e }
+
+    .iti__country-list {
+        position: absolute;
+        z-index: 2;
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        margin: 0 0 0 -1px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+        background-color:#1d1f1e;
+        border: 1px solid #CCC;
+        white-space: nowrap;
+        max-height: 200px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch; }
+        .iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {
+            padding-right: 6px;
+            padding-left: 81px;
+            margin-left: 0;
+        }.iti input, .iti input[type=text], .iti input[type=tel] {
+            position: relative;
+            z-index: 0;
+            margin-top: 0 !important;
+            margin-bottom: 0 !important;
+            padding-right: 3px;
+            margin-right: 0;
+        }
+ 
+
+        /* otppage starts here */
+    
+    .boxtop1{font-family: 'Noto Sans', sans-serif;}
+    .boxtop1 h2{
+        font-size: 24px;
+        font-weight: bolder;
+        font-family: 'Noto Sans', sans-serif;
+    }
+
+    .phone1{ 
+        margin-top: 20px;
+        background:#1d1f1e ;
+        color: #4b8f78;
+        border: none;
+        width: 40px;
+        height: 35px;
+        border-radius: 3px;
+    }
+    .otp{ width: 100%;}
+
+    .box{
+        background: #293330;
+        width: 263px;
+        height: 180px;
+        border-radius: 8px;
+        padding: 20px  20px;
+        justify-self: center;
+        align-self: center;
+    
+    }
+.center h5{
+
+        text-align: right;
+        padding-top: 10px;
+        padding-right: 12px;padding: 170px auto;
+    }
